@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Caveat|Liu+Jian+Mao+Cao&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.mainarea
+{
+    background-image: linear-gradient(135deg, #dbb0a0
+    2%, #b2481b 100%);
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.mainarea select
+{
+    background: #eab586;
+    padding: 10px;
+    font-family: Verdana;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight:800;
+    color:#57394a;
+    box-shadow:inset 0 -0.8em 0 -0.35em #b2481b ;
+}
+
+.mainarea select option
+{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background:#e0c2c0;
+}
+
+
+textarea {
+    position: relative;
+    background-image: url("https://i.ibb.co/PFBPNSf/Page.png");
+    padding-top: 75px;
+    padding-left: 94px;
+    line-height: 24px;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    font-weight: 700;
+    width:500px;
+    height: 600px;
+}
+select {
+    display: grid;
+margin-bottom: 10px;
+    background-color: lavender;
+}
